@@ -1,0 +1,151 @@
+@import "../variables";
+
+//////////////////////////// MENU  //////////////////////////////
+.store {
+  border-top: solid 1px #eeeeee;
+
+  &_menu {
+    display: flex;
+    padding-top: 50px;
+    margin-bottom: 55px;
+    font-weight: bold;
+    color: #727272;
+    text-transform: uppercase;
+
+    &-item {
+      margin-right: 50px;
+      cursor: pointer;
+    }
+
+  }
+}
+
+.active--item {
+  color: $activeItem;
+}
+
+/////////////////// ITEMS /////////////////////////////////
+
+.store {
+  margin-bottom: 65px;
+
+  &_items {
+    display: flex;
+
+    &-inner {
+      display: flex;
+      flex-wrap: wrap;
+
+      &:last-child {
+        flex-wrap: wrap;
+      }
+    }
+  }
+
+  &_item {
+    cursor: pointer;
+
+    &:hover{
+      .store_item-block-popup{
+        display: block;
+      }
+    }
+
+    &-block {
+      width: 420px;
+      height: 500px;
+      background-color: $greyBack;
+      position: relative;
+      margin-right: 30px;
+
+
+      &-price {
+        font-size: 24px;
+        color: #9a9a9a;
+        font-weight: 300;
+        position: absolute;
+        padding: 15px;
+
+      }
+
+      //#eeeeee
+      &-popup {
+        width: 420px;
+        min-height: 150px;
+        border: solid 1px $greyBack;
+        background-color: white;
+        position: absolute;
+        z-index: 10;
+        text-align: center;
+        padding-top: 20px;
+        cursor: auto;
+        display: none;
+        -webkit-box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+        -moz-box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+        box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+        .title{
+          text-transform: uppercase;
+          color: $greyText;
+          font-weight: bold;
+        }
+        .description{
+          padding-top: 20px;
+          color: #8e8c8c;
+
+        }
+        .buttons{
+          padding-top: 25px;
+          .active-button{
+          background-color: $activeItem;
+        }
+          button{
+            margin-right: 10px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            border-radius: 30% ;
+
+            img{
+              width: 20px;
+              height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.big--item {
+  width: 900px;
+  height: 704px;
+  margin-top: 30px;
+
+  .store_item-block-popup{
+    width: 871px;
+    margin-top: 203px;
+
+
+
+
+  }
+
+
+}
+
+.big--item-1 {
+  width: 900px;
+  height: 704px;
+
+  .store_item-block-popup{
+    width: 871px;
+    margin-top: 203px;
+    height: 200px;
+
+  }
+
+}
+
+
+
+

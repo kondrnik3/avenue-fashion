@@ -1,0 +1,66 @@
+@import "../variables";
+
+.look_book {
+  padding-top: 60px;
+  border-top: 1px solid #eeeeee;
+
+  &-items {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-item {
+    &_block {
+
+      width: 600px;
+      height: 530px;
+
+
+      img {
+        width: 600px;
+        position: absolute;
+        z-index: -1;
+      }
+
+      &-inner {
+
+        padding-left: 280px;
+        padding-top: 60px;
+
+        text-align: center;
+      }
+
+      &-title {
+        color: $lookTitle;
+        font-size: 48px;
+        font-weight: 300;
+        width: 243px;
+
+        span {
+          display: block;
+          font-weight: bold;
+          text-align: end;
+
+        }
+      }
+
+      &-text {
+        width: 243px;
+        padding-top: 20px;
+      }
+
+      &-button {
+        width: 243px;
+        height: 20px;
+        padding-top: 50px;
+        padding-left: 100px;
+
+        a{
+          padding: 10px 23px;
+        }
+
+      }
+    }
+  }
+
+}

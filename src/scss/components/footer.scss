@@ -1,0 +1,97 @@
+@import "../variables";
+
+.footer {
+
+  background-color: $greyBack;
+  padding-top: 60px;
+
+  &_lists {
+    display: flex;
+    justify-content: space-between;
+
+    &-item {
+
+      &_title {
+        text-transform: uppercase;
+        color: #575153;
+        font-weight: bold;
+        padding-bottom: 15px;
+      }
+
+      &-list {
+        color: #727272;
+        font-weight: 300;
+
+        ul {
+          li {
+            padding-bottom: 15px;
+
+            &:hover {
+              color: black;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+.footer_blocks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  margin-bottom: 50px;
+
+  &-item {
+    max-width: 570px;
+    max-height: 200px;
+
+
+
+    &:first-child {
+      background-color: $blackBack;
+      font-size: 36px;
+      font-weight: 300;
+      text-transform: uppercase;
+      color: #fff;
+      padding: 50px 66px;
+
+
+
+      .title{
+       width: 425px;
+        font-weight: 700;
+        text-align: center;
+
+      }
+      .subtitle{
+        width: 436px;
+
+
+      }
+    }
+
+    &:last-child {
+      display: flex;
+      background-color: $activeItem;
+      justify-content: center;
+      padding: 74px 200px;
+
+      a{
+        margin-left: 60px;
+        &:first-child{
+          margin-left: 0;
+        }
+      }
+
+    }
+  }
+}
+
+.footer_bottom {
+  background-color: $blackBack;
+  padding: 25px 0;
+  color: $greyText;
+}
