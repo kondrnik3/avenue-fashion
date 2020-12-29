@@ -12,6 +12,7 @@
   &-item {
     &_block {
 
+
       width: 600px;
       height: 530px;
 
@@ -20,6 +21,7 @@
         width: 600px;
         position: absolute;
         z-index: -1;
+        border-right: 1px solid rgba(128, 128, 128, 0.16);
       }
 
       &-inner {

@@ -1,7 +1,7 @@
 import React from 'react';
-import lookBook01 from "../../assets/img/look-book01.jpg";
-import lookBook02 from "../../assets/img/look-book02.jpg";
-import lookBook03 from "../../assets/img/look-book03.jpg";
+import lookBook01 from "../../../assets/img/look-book01.jpg";
+import lookBook02 from "../../../assets/img/look-book02.jpg";
+import lookBook03 from "../../../assets/img/look-book03.jpg";
 
 let LookBookItem = () => {
     return (

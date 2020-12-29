@@ -1,13 +1,14 @@
 import React from 'react';
-import Header from "../components/Header/Header";
+import HeaderHome from "../components/Header/HeaderHome";
 import Store from "../components/Store/Store";
-import LookBookItems from "../components/LoobBook/LookBookItems";
+import LookBookItems from "../components/LookBook/LoobBookHome/LookBookItems";
 import Footer from "../components/Footer/Footer";
+
 
 let Home = () => {
     return (
         <>
-            <Header/>
+            <HeaderHome/>
             <Store/>
             <LookBookItems/>
             <Footer/>

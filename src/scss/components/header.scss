@@ -41,12 +41,8 @@
 
       }
     }
+
   }
-.top_header-inner{
-  background-color: $blackBack;
-}
-
-
   &_bottom {
     padding-top: 35px;
     padding-bottom: 98px;
@@ -89,5 +85,28 @@
       }
     }
   }
+.top_header-inner{
+  background-color: $blackBack;
 }
+
+
+
+}
+ .intro_title{
+   margin-top: 140px;
+   text-align: center;
+   font-weight: 300;
+   font-size: 30px;
+   color: #fff;
+   div{
+     margin-top: 10px ;
+   }
+   span{
+     display: block;
+     text-align: center;
+     font-weight: bold;
+     font-size: 48px;
+
+   }
+ }
 

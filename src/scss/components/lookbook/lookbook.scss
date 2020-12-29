@@ -1,0 +1,43 @@
+
+.lookbook_items{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.lookbook-block{
+  padding: 50px 15px;
+  margin-top: 20px;
+
+  .item-title{
+    font-size: 48px;
+    color: #575153;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+    span{
+      font-weight: bold;
+    }
+  }
+  .item-subtitle{
+    font-size: 13px;
+    color: #575153;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  .item-text {
+    width: 300px;
+    margin-bottom: 50px;
+    color: #575153;
+    span{
+      display: block;
+      margin-top: 20px;
+    }
+  }
+  .button{
+  a{
+    padding: 12.5px 45px;
+  }
+  }
+}
