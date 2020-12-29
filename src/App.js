@@ -7,6 +7,7 @@ import Brand from "./pages/Brand";
 
 import './scss/app.scss'
 import LookBook from "./pages/LookBook";
+import LocalStore from "./pages/LocalStore";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" component={Home} exact/>
         <Route path="/brand" component={Brand} exact/>
         <Route path="/lookbook" component={LookBook} exact/>
+        <Route path="/local-store" component={LocalStore} exact/>
         </>
     );
 }

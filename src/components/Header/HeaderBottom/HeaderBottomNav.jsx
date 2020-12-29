@@ -8,6 +8,7 @@ let HeaderBottomNav = () => {
             <div className="header_bottom-link"><Link  to="/">women's</Link ></div>
             <div className="header_bottom-link"><Link to="/brand" href="#">the brand</Link ></div>
             <div className="header_bottom-link"><Link to="/lookbook">look book</Link></div>
+            <div className="header_bottom-link"><Link to="/local-store">local store</Link></div>
         </div>
     );
 }
